@@ -1,0 +1,100 @@
+body{
+    /* Background */
+    background-image: url('background.jpg');
+    background-size: cover;
+
+    /* Font */
+    font-family: 'Poppins', sans-serif;
+}
+
+.box{
+    width: 950px;
+    height: 650px;
+    background-color: rgba(6, 6, 6, 0.573);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+/* HEADER */
+
+header{
+    margin: auto;
+    text-align: center;
+}
+
+.logo{
+    width: 22%;
+    margin-left: 39%;
+    margin-right: 39%;
+    margin-top: 8%;
+}
+
+span h2{
+    margin: 0;
+    color:rgb(0, 212, 0);
+}
+
+
+/* NAVIGATION BAR */
+
+nav{
+    width: 80%;
+    height: 5%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(0, 212, 0);
+}
+
+.nav_button{
+    margin: 7px;
+    font-size: 11px;
+}
+
+
+/* MAIN */
+
+main{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+#checkbox_1, #checkbox_2, #checkbox_3{
+    margin: 0;
+}
+
+.label_text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.monopattino{
+    margin-top: 25px;
+}
+
+.monopattino p{
+    margin:0;
+    font-size: 13px;
+}
+
+.charge_1{
+    width: 40%;
+    height: 25px;
+    background-color: rgb(245,180,83);
+    border-radius: 5px;
+}
+
+.charge_2{
+    width: 55%;
+    height: 25px;
+    background-color: rgb(30,195,30);
+    border-radius: 5px;
+}
+
+.charge_3{
+    width: 15%;
+    height: 25px;
+    background-color: rgb(190,65,65);
+    border-radius: 5px;
+}
